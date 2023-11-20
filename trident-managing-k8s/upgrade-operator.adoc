@@ -20,7 +20,7 @@ Pour effectuer la mise à niveau à l'aide de l'opérateur, les conditions suiva
 * Vous devez avoir une installation Trident basée sur CRD. Ceci représente toutes les versions de 19.07 et ultérieures. Si vous avez une installation basée sur CSI, vous avez probablement une installation à base de CRD.
 * Si vous avez désinstallé CSI Trident et que les métadonnées de l'installation persistent, vous pouvez effectuer une mise à niveau à l'aide de l'opérateur.
 * Une seule installation Astra Trident doit exister sur l'ensemble des espaces de noms d'un cluster Kubernetes donné.
-* Vous devez utiliser un cluster Kubernetes exécutant link:requirements.html["version 1.17 et ultérieure"^].
+* Vous devez utiliser un cluster Kubernetes exécutant  link:../trident-get-started/requirements.html["version 1.17 et ultérieure"^].
 * Si des CRD alpha snapshot sont présents, vous devez les supprimer avec `tridentctl obliviate alpha-snapshot-crd`. Ceci supprime les CRD pour la spécification de snapshot alpha. Pour les snapshots existants qui doivent être supprimés/migrés, reportez-vous à la section https://netapp.io/2020/01/30/alpha-to-beta-snapshots/["de ce blog"^].
 
 

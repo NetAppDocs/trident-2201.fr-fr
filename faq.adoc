@@ -67,7 +67,7 @@ Astra Trident n'a plus besoin d'un `etcd`. Il utilise des CRD pour maintenir l'�
 
 === Est-ce que Astra Trident prend en charge une installation hors ligne à partir d'un registre privé ?
 
-Oui, Astra Trident peut être installé hors ligne. Voir link:https://docs.netapp.com/us-en/trident/trident-get-started/kubernetes-deploy.html["ici"].
+Oui, Astra Trident peut être installé hors ligne. Voir link:trident-get-started/kubernetes-deploy.html["ici"].
 
 
 
@@ -91,13 +91,13 @@ L'Astra Trident effectue une lecture sur le serveur d'API Kubernetes afin de dé
 
 === Quels sont les rôles et privilèges utilisés par Astra Trident ?
 
-Le programme d'installation de Trident crée un cluster Kubernetes ClusterRole qui dispose d'un accès spécifique au volume persistant, à la demande de volume persistant, à la classe de stockage et aux ressources secrètes du cluster Kubernetes. Voir link:https://docs.netapp.com/us-en/trident/trident-get-started/kubernetes-customize-deploy-tridentctl.html["ici"].
+Le programme d'installation de Trident crée un cluster Kubernetes ClusterRole qui dispose d'un accès spécifique au volume persistant, à la demande de volume persistant, à la classe de stockage et aux ressources secrètes du cluster Kubernetes. Voir link:trident-get-started/kubernetes-customize-deploy-tridentctl.html["ici"].
 
 
 
 === Est-il possible de générer localement les fichiers de manifeste exacts qu'Astra Trident utilise pour l'installation ?
 
-Vous pouvez générer et modifier localement les fichiers de manifeste exacts utilisés par Astra Trident pour l'installation, si nécessaire. Voir link:https://docs.netapp.com/us-en/trident/trident-get-started/kubernetes-customize-deploy-tridentctl.html["ici"].
+Vous pouvez générer et modifier localement les fichiers de manifeste exacts utilisés par Astra Trident pour l'installation, si nécessaire. Voir link:trident-get-started/kubernetes-customize-deploy-tridentctl.html["ici"].
 
 
 
@@ -199,7 +199,7 @@ NetApp prend en charge la mise à niveau d'Astra Trident d'une version majeure �
 
 === Est-il possible de revenir à une version antérieure de Trident ?
 
-Un certain nombre de facteurs doivent être évalués si vous voulez rétrograder. Voir link:https://docs.netapp.com/us-en/trident/trident-managing-k8s/downgrade-trident.html["la section sur la rétrogradation"].
+Un certain nombre de facteurs doivent être évalués si vous voulez rétrograder. Voir link:trident-managing-k8s/downgrade-trident.html["la section sur la rétrogradation"].
 
 
 
