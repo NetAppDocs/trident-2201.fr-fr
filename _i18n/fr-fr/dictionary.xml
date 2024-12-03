@@ -1018,13 +1018,6 @@
   <block id="7578be09dc225364649898a30619a336" category="paragraph">Effectuez les opérations suivantes pour désinstaller Astra Trident pour Docker.</block>
   <block id="867d93c3d1de0e8e75fa408cfadcbba5" category="list-text">Supprimez tous les volumes créés par le plug-in.</block>
   <block id="4a28a108f39c07ac09218644ca6e9bb0" category="list-text">Retirez le plug-in :</block>
-  <block id="34c4dac14496e9c45d92f345d9392fc8" category="summary">La documentation relative aux versions précédentes d'Astra Trident est disponible au cas où vous n'exécutiez pas la dernière version.</block>
-  <block id="ba09ee47d11962c1ccd13d7e1f10e6c5" category="doc">Versions antérieures de la documentation</block>
-  <block id="b0f4f0ac7ea6be4c3047dd422c23539b" category="paragraph">Si vous n'exécutez pas Astra Trident 22.01, la documentation relative aux versions précédentes est disponible.</block>
-  <block id="cce172403b73af5c2a4e93081affcc7f" category="inline-link">Astra Trident 21.10</block>
-  <block id="606b9e83fb467a43b3065d4fd5037094" category="list-text"><block ref="606b9e83fb467a43b3065d4fd5037094" category="inline-link-rx"></block></block>
-  <block id="a93e9e44b7a375a4236260f5ff2b251e" category="inline-link">Astra Trident 21.07</block>
-  <block id="3830d427e146a8a64454dc373d9b1502" category="list-text"><block ref="3830d427e146a8a64454dc373d9b1502" category="inline-link-rx"></block></block>
   <block id="e20acf6d4b1275a0b5d2eb01c845adff" category="summary">NetApp prend en charge Trident de plusieurs façons. De nombreuses options de support en libre-service sont disponibles 24 h/24 et 7 j/7, par exemple un canal Slack.</block>
   <block id="db5eb84117d06047c97c9a0191b5fffe" category="doc">Assistance</block>
   <block id="14340f3a4eb25a54f8446036d807d7c8" category="paragraph">Astra Trident est un projet NetApp officiellement pris en charge. Vous pouvez contacter NetApp à l'aide de n'importe quel mécanisme standard et bénéficier d'un support haute performance adapté à vos besoins.</block>
@@ -1034,8 +1027,6 @@
   <block id="5dd03e8d039863e563e049be198c3fd3" category="doc">Notes de version</block>
   <block id="2e6ce374ac42de81aea6a3d682b92e33" category="paragraph">Dans les notes de version, vous trouverez des informations sur les nouvelles fonctionnalités, les améliorations et les correctifs de bogues de la dernière version d'Astra Trident.</block>
   <block id="e4c4d344a524d21b898e4d04b6539aa7" category="admonition">Le<block ref="c67fd1b99934afa248dfeb285a9a4191" prefix=" " category="inline-code"></block> Binaire pour Linux fourni dans le fichier zip du programme d'installation est la version testée et prise en charge. Sachez que le<block ref="43b9d8ea18c48c3a64c4e37338fc668f" prefix=" " category="inline-code"></block> binaire fourni dans le<block ref="1e6add150fa42ebd470891f1547d31f0" prefix=" " category="inline-code"></block> une partie du fichier zip n'est pas testée ou prise en charge.</block>
-  <block id="368b120a3b5f53a49dc3ab96ec9b8dbd" category="paragraph">NetApp améliore et améliore continuellement ses produits et services. Voici quelques-unes des nouveautés d'Astra Trident. Pour les versions précédentes, voir<block ref="25da125dffad1d6323c21354bccf0203" category="inline-link-rx"></block>.</block>
-  <block id="7072ec708b0ea7e3243747d8b79c0d20" category="admonition">Si vous effectuez une mise à niveau à partir d'une version précédente de Trident et que vous utilisez Azure NetApp Files, le <block ref="d5189de027922f81005951e6efe0efd5" prefix="" category="inline-code"></block> le paramètre config est désormais un champ singleton obligatoire.</block>
   <block id="41cf959adc98386b54829d71a6ed5d37" category="section-title">Correctifs</block>
   <block id="a98b2ebbcbb381d3abc81e2ecfb2054c" category="inline-link-macro">Problème GitHub n° 691</block>
   <block id="61465c1d4383dd4afdf168925e15e767" category="list-text">Résolution du problème lié à l'annulation de la publication des volumes sur les nœuds supprimés. (<block ref="5fee6ab43e8008edba54375694a29266" category="inline-link-macro-rx"></block>)</block>
@@ -2955,7 +2946,6 @@
   <block id="01539f4f1fd20792cbbae6bb0506cc20" category="paragraph">Après avoir résolu le problème, vous pouvez nettoyer l'installation comme suit, puis exécuter le<block ref="430bf77bee6c59d385d4194f84c21b16" prefix=" " category="inline-code"></block> commande à nouveau :</block>
   <block id="d327e8f24b63b83e091dccdc48dd7b1b" category="sidebar">Documentation Astra Trident</block>
   <block id="7d0ee6fed10d3d4e5c9ee496729ab519" category="sidebar">Notes de mise à jour</block>
-  <block id="93168a8084b3e838d2932c4734bd234e" category="sidebar">Versions antérieures</block>
   <block id="eb1f347fa6176ae2c9175df3bc414954" category="sidebar">Avec Astra Trident</block>
   <block id="a20f982d79c3dd66d244ffe0f7d940ee" category="sidebar">Meilleures pratiques et recommandations</block>
   <block id="c91cf7abea9584bc1edbc8ff4948ada0" category="sidebar">Intégration d'Astra Trident</block>
@@ -3070,4 +3060,5 @@ Pour plus d'informations, voir <block ref="139a59f2208174d2bf825b80dc580275" cat
   <block id="f8b52d963f246a75dc6c8b78c954a4fd" category="list-text"><block ref="f8b52d963f246a75dc6c8b78c954a4fd" category="inline-link-rx"></block></block>
   <block id="b6780b7b2561935ff862fe7126cde751" category="list-text"><block ref="b6780b7b2561935ff862fe7126cde751" category="inline-link-rx"></block></block>
   <block id="b9a641d903e611a87a5e68ac7fdb0b84" category="list-text">Le AutoSupport Trident ne collecte pas et ne transmet pas d'informations à caractère personnel (PII) ou de données personnelles. Il est fourni avec un<block ref="173a360b412944768c2ab13e6c8fd1c7" category="inline-link-rx"></block> qui ne s'applique pas à l'image du conteneur Trident. Pour en savoir plus sur l'engagement de NetApp en faveur de la sécurité et de la confiance des données<block ref="d3cc55401bc8303e01c6b0c43ba0733f" category="inline-link-rx"></block>.</block>
+  <block id="9bbe247417ec112bd7f3be36a4035717" category="paragraph">NetApp améliore et améliore continuellement ses produits et services. Voici quelques-unes des nouveautés d'Astra Trident.</block>
 </blocks>
